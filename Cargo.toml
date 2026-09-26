@@ -16,7 +16,7 @@ path = "src/main.rs"
 # `encryption-pred`, `encryption-typed`.
 # `project` is the default, so a plain `cargo build`, and a build of the
 # repository on the platform (which passes no features), embeds it.
-default = ["project"]
+default = ["encryption-wasm"]
 project = []
 # A signing key with `caller: "predecessor"`, bind project.
 project-pred = []
